@@ -1,0 +1,59 @@
+NTWEETS HISTORY
+
+Tweet-Message: Ooga booga! 
+Date Create: Thu Apr 12 02:42:28 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: I want the rc f! 
+Date Create: Thu Apr 12 02:41:56 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: Yo, it’s Jose! 
+Date Create: Thu Apr 12 02:41:41 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: Shopping is life 
+Date Create: Mon Apr 09 02:12:31 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: I have major allergies!! 
+Date Create: Mon Apr 09 02:12:16 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: testing 1 2 3 
+Date Create: Mon Apr 09 00:31:52 +0000 2018
+NTWEETS HISTORY
+
+Tweet-Message: hello! 
+Date Create: Mon Apr 09 00:31:40 +0000 2018
+
+*****Show Songs
+
+Album Type: single 
+Artist: Noah Schnacky 
+The song name:  hello 
+Link: https://open.spotify.com/album/2EoqXTEJ8DGjmaOu1uVvW4
+
+*****Show Songs
+
+Album Type: single 
+Artist: Chris Brown 
+The song name:  yeah 3x 
+Link: https://open.spotify.com/album/1DDkkFhCSAPfSVg6bIWq4L
+
+Show Movie*****
+
+Title: Raise the Titanic 
+Year: 01 Aug 1980 
+Country: UK, USA 
+Language: English 
+Plot: To obtain a supply of a rare mineral, a ship raising operation is conducted for the only known source, the Titanic. 
+Actors: Jason Robards, Richard Jordan, David Selby, Anne Archer
+Show Movie*****
+
+Title: Living with Mother: An Insidious Parody 
+Year: 23 Apr 2014 
+Country: USA 
+Language: English 
+Plot: A young couple experiences paranormal activity from an overbearing mother figure haunting their home as well as other ghostly intrusions in this parody. 
+Actors: Ruth Allynn Anderson, Michael A. Isaacs, Anthony Kiyoshi LePage, Simone Valentine
