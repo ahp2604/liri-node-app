@@ -10,9 +10,8 @@ var client = new twitter(keys.twitter);
 //Command Line
 var commandNames = process.argv.filter((value,index) => index > 2).reduce((a, b) => {return a + " " + b},"");
 var command = process.argv[2];
-var blank = "";
-//testing if the values are being place in same array.
 
+//Switch Case for different command scenarios
 switch(command) {
     case "my-tweets":
         tweetHistory();
@@ -70,7 +69,7 @@ function showSongs(commandNames){
     });
 };
 
-
+//Function to show movie details
 function showMovie(commandNames){
     var queryUrl = `http://www.omdbapi.com/?t=${commandNames}&y=&plot=short&apikey=trilogy`;
 
@@ -90,7 +89,7 @@ function showMovie(commandNames){
         })
 };
 
-
+//Function readfile from random.txt and run the command on that text file
 function doIt() {
     fs.readFile("random.txt","utf8", function(error,data){
         if(!error){
