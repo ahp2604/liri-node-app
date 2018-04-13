@@ -33,8 +33,13 @@ switch(command) {
             showMovie("Mr.Nobody");
         }
         break;
+    case "do-what-it-says":
+        doIt();
+        break;
+
     default:
-        console.log("{Please enter a command: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+        console.log("{Enter a command: my-tweets, spotify-this-song, movie-this}");
+        console.log("-----Pick a song name for command 'spotify-this-song' ----- Pick a movie name for command 'movie-this'-----");
       break;
 }
 
@@ -85,3 +90,30 @@ function showMovie(commandNames){
         })
 };
 
+
+function doIt() {
+    fs.readFile("random.txt","utf8", function(error,data){
+        if(!error){
+            //console.log(data);
+            var autoCommand = data.split(',')
+            
+            if(autoCommand[0] == "spotify-this-song"){
+                showSongs(autoCommand[1])
+            }else if(autoCommand[0] == "movie-this"){
+                showMovie(autoCommand[1]);
+            }else if(autoCommand[0] == "my-tweets"){
+                tweetHistory();
+            }else{
+                console.log("No command stored")
+            };
+
+            //Beta testing for multiple command in randomText
+            // var autoCommands = data.split('\r\n');
+            // var autoCommand = [];
+            // while(autoCommands.length){
+            //     autoCommand = autoCommands.splice(0,1)
+            //     autoCommand.forEach((element,index)=> {var remove = element.split(",");console.log(remove)})
+            // };
+        }
+    })
+}
